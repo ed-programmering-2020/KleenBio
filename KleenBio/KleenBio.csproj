@@ -93,6 +93,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BokadePlatser.cs" />
+    <Compile Include="Bokningskontroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bokningskontroll.Designer.cs">
+      <DependentUpon>Bokningskontroll.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +109,9 @@
     <Compile Include="kunder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Bokningskontroll.resx">
+      <DependentUpon>Bokningskontroll.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
