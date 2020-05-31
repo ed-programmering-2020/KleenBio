@@ -33,3 +33,4 @@ C:\Users\0102joma\source\repos\KleenBio\KleenBio\obj\Debug\KleenBio.csproj.CopyC
 C:\Users\0102joma\source\repos\KleenBio\KleenBio\obj\Debug\KleenBio.exe
 C:\Users\0102joma\source\repos\KleenBio\KleenBio\obj\Debug\KleenBio.pdb
 C:\Users\0102joma\source\repos\KleenBio\KleenBio\obj\Debug\KleenBio.Bokningskontroll.resources
+C:\Users\0102joma\source\repos\KleenBio\KleenBio\obj\Debug\KleenBio.AdminPanel.resources

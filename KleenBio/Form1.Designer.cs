@@ -33,6 +33,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.Book = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAdmin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -41,7 +42,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 63);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Lista kunder";
+            this.button1.Text = "Lista aktiva kunder";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -73,12 +74,23 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "label1";
             // 
+            // btnAdmin
+            // 
+            this.btnAdmin.Location = new System.Drawing.Point(12, 203);
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Size = new System.Drawing.Size(125, 67);
+            this.btnAdmin.TabIndex = 4;
+            this.btnAdmin.Text = "Admin-panel";
+            this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(801, 565);
+            this.Controls.Add(this.btnAdmin);
             this.Controls.Add(this.Book);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
@@ -97,6 +109,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button Book;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAdmin;
     }
 }
 
